@@ -27,10 +27,8 @@ if "totalunresolveditems" in line[x]:
             unresolved[dig] = ''
 """
 
-print "3"
 
-
-from kayako import Ticket, TicketAttachment, TicketNote, TicketPost, TicketPriority, TicketStatus, TicketType
+#from kayako import Ticket, TicketAttachment, TicketNote, TicketPost, TicketPriority, TicketStatus, TicketType
 from kayako import KayakoAPI
 API_URL = 'https://support.fused.com/api/'
 API_KEY = '0b85616f-556b-8234-6146-acafbe3d5552'
